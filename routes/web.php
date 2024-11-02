@@ -15,5 +15,6 @@ Route::get('/about/{name}',function($name){
 });
 
 Route::redirect('/','/home');
+Route::redirect('/contract','/Contract');
 // Another way ot declear route.
 // Route::view("/home","home");
